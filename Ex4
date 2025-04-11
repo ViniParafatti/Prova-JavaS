@@ -1,0 +1,33 @@
+let livro0 = {
+    Título: "yyyyy",
+    Autor: 'xxxxxx',
+    Atrasado: true,
+}
+let livro1 = {
+    Título: "zzzzz",
+    Autor: 'gggggg',
+    Atrasado: false,
+}
+let livro2 = {
+    Título: "ttttttt",
+    Autor: 'ooooooo',
+    Atrasado: true,
+}
+
+
+
+
+let devolucoes = [livro0.Título,livro1.Título,livro2.Título]
+console.log(livro0)
+console.log(livro1)
+console.log(livro2)
+console.log(devolucoes)
+devolucoes.splice(2, 1,);
+console.log(devolucoes)
+console.log(livro2.Título,'<-Este livro foi removido')
+devolucoes.splice(1, 1,);
+console.log(devolucoes)
+console.log(livro1.Título,'<-Este livro foi removido')
+devolucoes.splice(0, 1,);
+console.log(devolucoes)
+console.log(livro0.Título,'<-Este livro foi removido')
