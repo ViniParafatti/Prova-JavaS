@@ -1,0 +1,13 @@
+let idade = 45;
+if (idade<12) {
+    console.log("Ingresso infaltil");
+} 
+if (idade<17){
+    console.log("ingresso adolescente");
+}     
+if (idade<59){
+    console.log("ingresso adulto");
+}else {
+    console.log("ingresso sênior");
+
+}
